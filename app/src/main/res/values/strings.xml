@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">ForgetIt</string>
+
+    <string name="ConfirmPass">Confirm Password</string>
+    <string name="title_of_main">forget it</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Create a profile</string>
+    <string name="title_activity_sign_up">signUpActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="submit">SUBMIT</string>
+    <string name="emptyUserNameForm">Type a username please</string>
+    <string name="typePassWord">Type a password please</string>
+    <string name="errorSmallLetter">Please, add a lower case letter </string>
+    <string name="errorBigLetter">Please, add a upper case letter </string>
+    <string name="errorSpecialLetter">Please, add a special character (@,$,etc.) </string>
+    <string name="errorDigit">Please, add a digit</string>
+    <string name="errorLength">The password has to be at least 8 characters</string>
+    <string name="checkOfPassword">Increased security</string>
+    <string name="PassWordSuggestion">Make sure your password has at least 8 (latin) characters,
+        has lower and upper cases,
+        contains digits and special characters.</string>
+    <string name="title_activity_accounts">AccountsActivity</string>
+    <string name="welcome">Welcome, </string>
+    <string name="signedInSucc">Signed in successfully</string>
+    <string name="signedInUnsecc">Invalid password</string>
+    <string name="delete">Delete</string>
+    <string name="visible">Visible</string>
+    <string name="invisible">Invisible</string>
+    <string name="passwordMatch">The passwords you have typed do not match</string>
+    <string name="passVis">Visible password</string>
+    <string name="passInvis">Invisible password</string>
+    <string name="Add">Add a new password</string>
+    <string name="Label">Description</string>
+    <string name="LabelExample">eg Facebook,Taxis etc</string>
+    <string name="Back">Back</string>
+    <string name="copyUsername">Copy username</string>
+    <string name="copyPassword">Copy password</string>
+    <string name="LabelAllreadyInUSE">This description already existing in the catalogue. Please change it.</string>
+    <string name="noUsername">This username does not exist</string>
+    <string name="forbittenUsername">Type a username with no punctuation or special characters</string>
+    <string name="edit">edit</string>
+    <string-array name="SpinnerOptions">
+        <item name="one">1</item>
+        <item name="two">2</item>
+        <item name="three">3</item>
+        <item name="four">4</item>
+        <item name="five">5</item>
+
+    </string-array>
+<string name="logOut">Log out</string>
+    <string name="LogIN">Its all about you</string>
+    <string name="VisibilyOf">Visibility of password</string>
+    <string name="ADDRECORDSMESS">You dont have any records. \nPlease press the add button bellow. </string>
+    <string name="SignedIn">Signed In</string>
+    <string name="NoFieldEmpty">No field should be empty</string>
+    <string name="addIt">Add a new password</string>
+    <string name="saveIt">Edit your information</string>
+    <string name="add">ADD</string>
+    <string name="save">SAVE</string>
+    <string name="added">Added!</string>
+    <string name="saved">Saved!</string>
+    <string name="LogOff">Logged Out!</string>
+    <string name="NoSpace">No spaces allowed in username.</string>
+</resources>

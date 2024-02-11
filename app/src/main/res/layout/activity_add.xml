@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/addIt"
+      android:textStyle="bold"
+      app:layout_constraintBaseline_toBaselineOf="@+id/button7"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/editTextText"
+      android:layout_width="wrap_content"
+      android:layout_height="48dp"
+      android:layout_marginStart="32dp"
+      android:layout_marginTop="48dp"
+      android:ems="10"
+      android:hint="@string/Label"
+      android:importantForAutofill="no"
+      android:inputType="text"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+  <EditText
+      android:id="@+id/editTextText3"
+      android:layout_width="wrap_content"
+      android:layout_height="48dp"
+      android:layout_marginStart="32dp"
+      android:layout_marginTop="32dp"
+      android:ems="10"
+      android:hint="@string/username"
+      android:importantForAutofill="no"
+      android:inputType="text"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+  <EditText
+      android:id="@+id/editTextText4"
+      android:layout_width="wrap_content"
+      android:layout_height="48dp"
+      android:layout_marginStart="32dp"
+      android:layout_marginTop="32dp"
+      android:ems="10"
+      android:hint="@string/password"
+      android:importantForAutofill="no"
+      android:inputType="text"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+
+  <Button
+      android:id="@+id/button5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:backgroundTint="#614B47"
+      android:onClick="submit"
+      android:text="@string/saveIt"
+      android:textColor="#FFFFFF"
+      app:layout_constraintEnd_toEndOf="@+id/button7"
+      app:layout_constraintTop_toBottomOf="@+id/editTextText4" />
+
+  <Button
+      android:id="@+id/button7"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="32dp"
+      android:layout_marginEnd="8dp"
+      android:onClick="back"
+      android:text="@string/Back"
+      android:textColor="#FFFFFF"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:text="@string/LabelExample"
+      android:visibility="visible"
+      app:layout_constraintBaseline_toBaselineOf="@+id/editTextText"
+      app:layout_constraintStart_toEndOf="@+id/editTextText" />
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="32dp"
+      android:text="@string/username"
+      android:visibility="invisible"
+      app:layout_constraintBaseline_toBaselineOf="@+id/editTextText3"
+      app:layout_constraintStart_toEndOf="@+id/editTextText3"
+      app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+  <TextView
+      android:id="@+id/textView6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:text="@string/password"
+      android:visibility="invisible"
+      app:layout_constraintBaseline_toBaselineOf="@+id/editTextText4"
+      app:layout_constraintStart_toEndOf="@+id/editTextText4" />
+ </androidx.constraintlayout.widget.ConstraintLayout>
+   </ScrollView>
